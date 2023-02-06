@@ -1,0 +1,184 @@
+/* body */
+.loginpoint {
+  /* width: 100%; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-top: 0.6rem;
+  gap: 1.4rem;
+  padding-right: 1rem;
+}
+
+.loginpoint:hover {
+  cursor: pointer;
+}
+
+.loginpoint a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
+.loginpoint a:hover {
+  text-decoration: underline;
+}
+
+.loginpoint svg {
+  width: 25px;
+  height: 25px;
+  fill: rgb(109, 106, 106);
+  border-radius: 50%;
+  padding: 7px;
+}
+
+.loginpoint svg:hover {
+  z-index: 7;
+  background-color: rgb(231, 229, 229);
+}
+
+.loginpoint img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.googlebox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2.5rem;
+  padding-top: 1rem;
+}
+
+.gotools {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #dfe1e5;
+  border-radius: 100rem;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gotools:hover {
+  z-index: 5;
+  border: 1px solid whitesmoke;
+  cursor: pointer;
+  box-shadow: 0px 1px 3px rgb(192, 185, 185);
+}
+
+.gotools svg {
+  width: 25px;
+  height: 25px;
+  fill: rgb(151, 143, 143);
+}
+
+.gotools img {
+  width: 25px;
+  height: 25px;
+}
+
+.gotools input {
+  /* height: 30px; */
+  width: 450px;
+  border: none;
+  outline: none;
+}
+
+.submit button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem;
+  border: none;
+  outline: none;
+  height: 40px;
+  cursor: pointer;
+}
+
+button:hover {
+  box-shadow: 0px 1px 3px rgb(192, 185, 185);
+}
+
+.submit {
+  /* border: 2px solid greenyellow; */
+  width: 40%;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.languages {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.7rem;
+  color: hsl(0, 4%, 39%);
+}
+
+.languages a {
+  text-decoration: none;
+  color: blue;
+  font-size: 14px;
+  font-weight: 3px;
+}
+
+.languages a:hover {
+  text-decoration: underline;
+}
+
+.naija {
+  /* display: block; */
+  color: hsl(0, 4%, 39%);
+  padding-left: 1.4rem;
+  padding-top: 3rem;
+}
+
+.carbon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: hsl(0, 4%, 39%);
+  padding-bottom: 1rem;
+}
+
+.carbon img {
+  width: 13px;
+  height: 13px;
+}
+
+.carbon:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.foots {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 1rem;
+}
+
+.foots a {
+  text-decoration: none;
+  color: hsl(0, 4%, 39%);
+}
+
+.foots a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.ad {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.end {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1.5rem;
+}
